@@ -1,6 +1,10 @@
 # Magic-Book-AR
 Augmented réality
 
+### Install requirements library
+
+pip install -r requirements.txt
+
 ### Command line
 
 python main.py -c0 -m1 -r1
