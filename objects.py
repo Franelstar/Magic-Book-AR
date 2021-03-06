@@ -1,0 +1,32 @@
+from objloader_simple import *
+import os
+
+dir_name = os.getcwd()
+list_objects = {'Bernese_mountain_dog': [OBJ(os.path.join(dir_name, "models/fox/fox.obj"), swapyz=True),
+                                         [0, 0, 90], 3, '#090a01', [-400, 0], 'Dog'],
+                'English_springer': [OBJ(os.path.join(dir_name, "models/fox/fox.obj"), swapyz=True),
+                                     [0, 0, 90], 3, '#090a01', [-400, 0], 'Dog'],
+                'Border_Collie': [OBJ(os.path.join(dir_name, "models/fox/fox.obj"), swapyz=True),
+                                  [0, 0, 90], 3, '#090a01', [-400, 0], 'Dog'],
+                'spotlight': [OBJ(os.path.join(dir_name, "models/lamp/eb_lamp_01.obj"), swapyz=True),
+                              [0, 20, 0], 3, '#0ad4f0', [0, 100], 'Spotlight'],
+                'table_lamp': [OBJ(os.path.join(dir_name, "models/lamp/eb_lamp_01.obj"), swapyz=True),
+                               [0, 20, 0], 3, '#0ad4f0', [0, 100], 'Table Lamp'],
+                'iPod': [OBJ(os.path.join(dir_name, "models/ipone/phone2.obj"), swapyz=True),
+                         [30, 0, 0], 150, '#3024b3', [0, 100], 'Phone'],
+                'monarch': [OBJ(os.path.join(dir_name, "models/papillon/pap.obj"), swapyz=True),
+                         [0, 0, 0], 20, '#d17417', [0, 0], 'monarch'],
+                'studio_couch': [OBJ(os.path.join(dir_name, "models/couch/Couch.obj"), swapyz=True),
+                                 [0, 0, 0], 60, '#17032b', [0, 0], 'Studio Couch'],
+                'analog_clock': [OBJ(os.path.join(dir_name, "models/montre/Watch.obj"), swapyz=True),
+                                 [0, 0, 0], 100, '#b00b18', [0, 0], 'Clock'],
+                'Wall_clock': [OBJ(os.path.join(dir_name, "models/montre/Watch.obj"), swapyz=True),
+                                 [0, 0, 0], 100, '#b00b18', [0, 0], 'Clock'],
+                'electric_fan': [OBJ(os.path.join(dir_name, "models/montre/Watch.obj"), swapyz=True),
+                                 [0, 0, 0], 100, '#b00b18', [0, 0], 'Clock'],
+                'beer_bottle': [OBJ(os.path.join(dir_name, "models/bottle/bottle.obj"), swapyz=True),
+                                 [0, 0, 0], 2.5, '#385a6b', [0, 0], 'Beer Bottle'],
+                'soccer_ball': [OBJ(os.path.join(dir_name, "models/ball/ball.obj"), swapyz=True),
+                                [0, 0, 0], 100, '#505c7a', [0, 0], 'soccer_ball'],
+                'wardrobe': [OBJ(os.path.join(dir_name, "models/ar/ar.obj"), swapyz=True),
+                                [0, 0, 0], 30, '#505c7a', [0, 0], 'Wardrobe']}
